@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Sum of n Natural Numbers</title>
+    </head>
+
+<body>
+    <script>
+        var num =window.prompt("Enter any number");
+        var n = parseInt(num);
+        result = sumnaturalnumber(n);
+        document.write("The sum of the numbers is" + result);
+        function sumnaturalnumber(n)
+        {
+            var i;
+            var sum = 0;
+            for(i = 1; i<= n; i++)
+            {
+                sum = sum + i;
+            }
+                return (sum);
+        }
+      </script>
+
+
+</body>
+</html>
