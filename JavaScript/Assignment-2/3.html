@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+<body>
+    <script>
+            function isEven(num)
+            {
+                return(num%2==0);
+            } 
+            
+            function find(array,fn1)
+            {
+               for(var i=0;i<array.length;i++)
+               {
+                   var result=fn1(array[i]);
+                   if(result==true)
+                   {
+                    return array[i];
+                    break;
+                   }
+                  
+               }
+            }
+            var arr=[1,3,5,4,2];
+            var output=find(arr,isEven);
+            document.write(output);   
+    </script>
+</body>
+</html>
