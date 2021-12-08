@@ -1,9 +1,0 @@
-function myHalfName(name){
-    if(name=="Vidya"|| name=="Thirthala") {
-    let message = "Hii, Thirthala!!!";
-    console.log(message); // Output: Hii, Thirthala!!!
-     }
- console.log(message); // Output: Uncaught ReferenceError: message is not defined
- }
-
- myHalfName("Thirthala");
